@@ -1,0 +1,46 @@
+/* p {
+    background-color: aqua;
+    color: blueviolet;
+}  */ 
+
+span.highlight {
+    background: linear-gradient(to right, rgba(0, 255, 255, 1), rgba(0, 255, 255, 0));
+    border-radius: 6px;
+    padding: 0px 0px;
+    color: blueviolet;
+}
+  strong {
+    color: brown;
+  }
+  
+  strong:hover {
+    background-color: lightyellow;
+  }
+  
+  .names {
+    font-family: sans-serif;
+    font-size: larger;
+}
+
+.container {
+    max-width: 400px;
+    margin: 10px auto;
+    background-color: rgba(255, 255, 255, 0.65);
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.pheader p {
+    text-align: center;
+}
+
+body {
+    background: url('https://picsum.photos/id/42/1200/800?blur=2') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+  }
